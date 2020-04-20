@@ -175,8 +175,8 @@
   
 <repositories>
   <repository>
-  <id>ahmadsaif05070755</id>
-  <url>https://pkgs.dev.azure.com/ahmadsaif05070755/_packaging/ahmadsaif05070755/maven/v1</url>
+  <id>myfirstapp</id>
+  <url>https://pkgs.dev.azure.com/ahmadsaif05070755/myFirstApp/_packaging/myfirstapp/maven/v1</url>
   <releases>
     <enabled>true</enabled>
   </releases>
@@ -188,8 +188,8 @@
 
 <distributionManagement>
   <repository>
-  <id>ahmadsaif05070755</id>
-  <url>https://pkgs.dev.azure.com/ahmadsaif05070755/_packaging/ahmadsaif05070755/maven/v1</url>
+  <id>myfirstapp</id>
+  <url>https://pkgs.dev.azure.com/ahmadsaif05070755/myFirstApp/_packaging/myfirstapp/maven/v1</url>
   <releases>
     <enabled>true</enabled>
   </releases>
