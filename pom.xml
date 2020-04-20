@@ -187,10 +187,16 @@
 </repositories> 
 
 <distributionManagement>
-<repository>
+  <repository>
   <id>myFirstApp</id>
   <url>https://pkgs.dev.azure.com/ahmadsaif05070755/myFirstApp/_packaging/myFirstApp/maven/v1</url>
-</repository>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+ </repository>
 </distributionManagement>
 
 
