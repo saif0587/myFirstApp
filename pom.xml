@@ -173,8 +173,8 @@
 
   </dependencies>
   
-  <distributionManagement>
-<repository>
+<repositories>
+  <repository>
   <id>myFirstApp</id>
   <url>https://pkgs.dev.azure.com/ahmadsaif05070755/myFirstApp/_packaging/myFirstApp/maven/v1</url>
   <releases>
@@ -183,6 +183,13 @@
   <snapshots>
     <enabled>true</enabled>
   </snapshots>
+ </repository>
+</repositories> 
+
+<distributionManagement>
+<repository>
+  <id>myFirstApp</id>
+  <url>https://pkgs.dev.azure.com/ahmadsaif05070755/myFirstApp/_packaging/myFirstApp/maven/v1</url>
 </repository>
 </distributionManagement>
 
